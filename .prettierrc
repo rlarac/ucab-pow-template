@@ -1,0 +1,32 @@
+{
+    "quoteProps": "as-needed",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false,
+    "printWidth": 120,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "proseWrap": "preserve",
+    "requirePragma": false,
+    "overrides": [
+        {
+            "files": "*.html",
+            "options": {
+                "tabWidth": 2,
+                "parser": "html"
+            }
+        },
+        {
+            "files": "*.css",
+            "options": {
+                "tabWidth": 2,
+                "parser": "css"
+            }
+        }
+    ]
+}
